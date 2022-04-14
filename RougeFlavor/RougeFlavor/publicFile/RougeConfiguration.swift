@@ -29,7 +29,6 @@ serviceMCC - Mobile Country Code. If this parameter is not passed, the SDK canno
  */
 import UIKit
 
-
 //MARK: - RequestParameterConfig
 public struct RequestParameterConfig {
     

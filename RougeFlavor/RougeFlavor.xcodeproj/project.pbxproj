@@ -505,15 +505,12 @@
 			isa = PBXGroup;
 			children = (
 				44BAC66D2807EB9E006AFD29 /* RougeFlavor.h */,
+				44BACA0E28082CAE006AFD29 /* publicFile */,
+				44BAC976280816B3006AFD29 /* RougeConfigData.swift */,
+				44BACA0B280818DE006AFD29 /* RougeRequestData.swift */,
 				44BAC6F02807EBC3006AFD29 /* HandyJSON */,
 				44BAC69C2807EBC3006AFD29 /* CryptoSwift */,
 				44BAC6762807EBC3006AFD29 /* Alamofire */,
-				44BAC7AD2807EC49006AFD29 /* RougeConfiguration.swift */,
-				44BAC976280816B3006AFD29 /* RougeConfigData.swift */,
-				44BACA0B280818DE006AFD29 /* RougeRequestData.swift */,
-				44BAC7AF2807EC89006AFD29 /* RougeError.swift */,
-				44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */,
-				44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */,
 			);
 			path = RougeFlavor;
 			sourceTree = "<group>";
@@ -691,7 +688,6 @@
 				44BAC6FA2807EBC3006AFD29 /* ExtendCustomModelType.swift */,
 				44BAC6FB2807EBC3006AFD29 /* Measuable.swift */,
 				44BAC6FC2807EBC3006AFD29 /* ISO8601DateTransform.swift */,
-				44BAC6FD2807EBC3006AFD29 /* Export.swift */,
 				44BAC6FE2807EBC3006AFD29 /* URLTransform.swift */,
 				44BAC6FF2807EBC3006AFD29 /* NSDecimalNumberTransform.swift */,
 				44BAC7002807EBC3006AFD29 /* ContextDescriptorType.swift */,
@@ -716,6 +712,18 @@
 				44BAC7132807EBC4006AFD29 /* Configuration.swift */,
 			);
 			path = HandyJSON;
+			sourceTree = "<group>";
+		};
+		44BACA0E28082CAE006AFD29 /* publicFile */ = {
+			isa = PBXGroup;
+			children = (
+				44BAC6FD2807EBC3006AFD29 /* Export.swift */,
+				44BAC7AD2807EC49006AFD29 /* RougeConfiguration.swift */,
+				44BAC7AF2807EC89006AFD29 /* RougeError.swift */,
+				44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */,
+				44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */,
+			);
+			path = publicFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1253,7 +1261,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0.6;
+				MARKETING_VERSION = 1.0.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RougeFlavor.vincent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1286,7 +1294,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0.6;
+				MARKETING_VERSION = 1.0.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RougeFlavor.vincent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

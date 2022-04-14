@@ -12,5 +12,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.source       = { :git => "https://github.com/DengJu/RougeFlavor.git", :tag => "#{spec.version}" }
   spec.source_files  = "RougeFlavor", "RougeFlavor/**/*.{h,m,swift}"
+  spec.static_framework = true
   
 end

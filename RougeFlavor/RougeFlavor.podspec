@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RougeFlavor"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.5"
   spec.summary      = "oneselfGuess"
   spec.description  = "Network Request For MiMo."
   spec.homepage     = "https://github.com/DengJu/RougeFlavor/tree/1.0.0"

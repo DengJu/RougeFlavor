@@ -359,13 +359,9 @@
 			isa = PBXGroup;
 			children = (
 				44BAC66D2807EB9E006AFD29 /* RougeFlavor.h */,
-				44BAC6FD2807EBC3006AFD29 /* Export.swift */,
-				44BAC7AD2807EC49006AFD29 /* RougeConfiguration.swift */,
-				44BAC7AF2807EC89006AFD29 /* RougeError.swift */,
-				44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */,
-				44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */,
 				44BAC976280816B3006AFD29 /* RougeConfigData.swift */,
 				44BACA0B280818DE006AFD29 /* RougeRequestData.swift */,
+				44BACA0F28085040006AFD29 /* Classes */,
 				44BAC6F02807EBC3006AFD29 /* HandyJSON */,
 				44BAC69C2807EBC3006AFD29 /* CryptoSwift */,
 				44BAC6762807EBC3006AFD29 /* Alamofire */,
@@ -570,6 +566,26 @@
 				44BAC7132807EBC4006AFD29 /* Configuration.swift */,
 			);
 			path = HandyJSON;
+			sourceTree = "<group>";
+		};
+		44BACA0F28085040006AFD29 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44BACA102808504E006AFD29 /* Public */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		44BACA102808504E006AFD29 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				44BAC6FD2807EBC3006AFD29 /* Export.swift */,
+				44BAC7AD2807EC49006AFD29 /* RougeConfiguration.swift */,
+				44BAC7AF2807EC89006AFD29 /* RougeError.swift */,
+				44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */,
+				44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -961,7 +977,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0.9;
+				MARKETING_VERSION = 1.1.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RougeFlavor.vincent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -994,7 +1010,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0.9;
+				MARKETING_VERSION = 1.1.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RougeFlavor.vincent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

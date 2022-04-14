@@ -7,7 +7,7 @@ Network request module for MiMo
 ## Usage
 
 1.导入RougeFlavor.framework到您的项目中
-2.在项目-> Target -> General -> Framework,Libraries, and Embedded content中，添加RougeFlavor.framework
+2.在项目-> Target -> General -> Framework,Libraries, and Embedded content中，添加EMRequestTool.framework
 3.项目中 
 ``` 
 import RougeFlavor 

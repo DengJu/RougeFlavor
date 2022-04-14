@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RougeFlavor"
-  spec.version      = "1.0.8"
+  spec.version      = "1.0.9"
   spec.summary      = "oneselfGuess"
   spec.description  = "Network Request For MiMo."
   spec.homepage     = "https://github.com/DengJu/RougeFlavor/tree/1.0.0"
@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/DengJu/RougeFlavor.git", :tag => "#{spec.version}" }
   spec.source_files  = "RougeFlavor", "RougeFlavor/**/*.{h,m,swift}"
   spec.static_framework = true
-  spec.public_header_files = 'RougeFlavor/RougeFlavor/RougeFlavor/publicFile/*.swift'
+  spec.public_header_files = ['RougeFlavor/publicFile/Export.swift','RougeFlavor/publicFile/RougeConfiguration.swift','RougeFlavor/publicFile/RougeError.swift','RougeFlavor/publicFile/RougeExtension.swift','RougeFlavor/publicFile/RougeRequest.swift']
   
 end

@@ -5,7 +5,7 @@ public extension RougeRequest {
     
     /// 不带图片数据请求
     /// - Returns: 返回DataRequest
-    private func requestData<T>(_ requestConfig: RougeConfiguration!, success: @escaping (_ data : T)->(), failure: ((ResponseErrorInfo) ->Void)? = nil, uploadProgress: ((Double) -> Void)? = nil) -> DataRequest
+    func requestData<T>(_ requestConfig: RougeConfiguration!, success: @escaping (_ data : T)->(), failure: ((ResponseErrorInfo) ->Void)? = nil, uploadProgress: ((Double) -> Void)? = nil) -> DataRequest
     {
         let request = AF.request(requestConfig.request)
         if requestConfig.isEncryptRequest {
@@ -154,7 +154,7 @@ public extension RougeRequest {
     
     /// 带图片数据请求
     /// - Returns: 返回DataRequest
-    private func requestImageData<T>(_ requestConfig: RougeConfiguration, image: UIImage?, success: @escaping (_ data : T)->(), failure: ((ResponseErrorInfo) ->Void)? = nil, uploadProgress: ((Double) -> Void)? = nil) -> DataRequest {
+    func requestImageData<T>(_ requestConfig: RougeConfiguration, image: UIImage?, success: @escaping (_ data : T)->(), failure: ((ResponseErrorInfo) ->Void)? = nil, uploadProgress: ((Double) -> Void)? = nil) -> DataRequest {
         let request = AF.upload(multipartFormData: { multipartforData in
             if let data = image?.jpegData(compressionQuality: 0.5) {
                 multipartforData.append(data, withName: "file", fileName: "avatar.jpg", mimeType: "image/jpeg")

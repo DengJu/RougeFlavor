@@ -732,6 +732,7 @@
 				44BAC7B92807EF15006AFD29 /* RougeRequest.swift in Headers */,
 				44BAC7B62807EEDA006AFD29 /* RougeExtension.swift in Headers */,
 				44BACA0A280818B7006AFD29 /* RougeConfigData.swift in Headers */,
+				44BACA0D28081905006AFD29 /* RougeRequestData.swift in Headers */,
 				44BAC9E7280818B2006AFD29 /* MultipartFormData.swift in Headers */,
 				44BAC9E8280818B2006AFD29 /* RequestInterceptor.swift in Headers */,
 				44BAC9E9280818B2006AFD29 /* NetworkReachabilityManager.swift in Headers */,
@@ -876,7 +877,6 @@
 				44BAC99528081881006AFD29 /* DateFormatterTransform.swift in Headers */,
 				44BAC99628081881006AFD29 /* Serializer.swift in Headers */,
 				44BAC99728081881006AFD29 /* ExtendCustomBasicType.swift in Headers */,
-				44BACA0D28081905006AFD29 /* RougeRequestData.swift in Headers */,
 				44BAC99828081881006AFD29 /* TransformOf.swift in Headers */,
 				44BAC99928081881006AFD29 /* Configuration.swift in Headers */,
 			);

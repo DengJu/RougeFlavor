@@ -164,6 +164,156 @@
 		44BAC7B62807EEDA006AFD29 /* RougeExtension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		44BAC7B82807EEF5006AFD29 /* RougeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */; };
 		44BAC7B92807EF15006AFD29 /* RougeRequest.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		44BAC977280816B3006AFD29 /* RougeConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BAC976280816B3006AFD29 /* RougeConfigData.swift */; };
+		44BAC97828081881006AFD29 /* ReflectionHelper.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F12807EBC3006AFD29 /* ReflectionHelper.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC97928081881006AFD29 /* Metadata.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F22807EBC3006AFD29 /* Metadata.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC97A28081881006AFD29 /* CustomDateFormatTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F32807EBC3006AFD29 /* CustomDateFormatTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC97B28081881006AFD29 /* Properties.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F42807EBC3006AFD29 /* Properties.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC97C28081881006AFD29 /* HexColorTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F52807EBC3006AFD29 /* HexColorTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC97D28081881006AFD29 /* Transformable.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F62807EBC3006AFD29 /* Transformable.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC97E28081881006AFD29 /* PointerType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F72807EBC3006AFD29 /* PointerType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC97F28081881006AFD29 /* Logger.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F82807EBC3006AFD29 /* Logger.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98028081881006AFD29 /* MangledName.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6F92807EBC3006AFD29 /* MangledName.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98128081881006AFD29 /* ExtendCustomModelType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6FA2807EBC3006AFD29 /* ExtendCustomModelType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98228081881006AFD29 /* Measuable.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6FB2807EBC3006AFD29 /* Measuable.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98328081881006AFD29 /* ISO8601DateTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6FC2807EBC3006AFD29 /* ISO8601DateTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98428081881006AFD29 /* URLTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6FE2807EBC3006AFD29 /* URLTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98528081881006AFD29 /* NSDecimalNumberTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6FF2807EBC3006AFD29 /* NSDecimalNumberTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98628081881006AFD29 /* ContextDescriptorType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7002807EBC3006AFD29 /* ContextDescriptorType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98728081881006AFD29 /* EnumTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7012807EBC3006AFD29 /* EnumTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98828081881006AFD29 /* CBridge.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7022807EBC3006AFD29 /* CBridge.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98928081881006AFD29 /* FieldDescriptor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7032807EBC4006AFD29 /* FieldDescriptor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98A28081881006AFD29 /* BuiltInBasicType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7042807EBC4006AFD29 /* BuiltInBasicType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98B28081881006AFD29 /* OtherExtension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7052807EBC4006AFD29 /* OtherExtension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98C28081881006AFD29 /* Deserializer.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7062807EBC4006AFD29 /* Deserializer.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98D28081881006AFD29 /* DataTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7072807EBC4006AFD29 /* DataTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98E28081881006AFD29 /* BuiltInBridgeType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7082807EBC4006AFD29 /* BuiltInBridgeType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC98F28081881006AFD29 /* HelpingMapper.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7092807EBC4006AFD29 /* HelpingMapper.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99028081881006AFD29 /* AnyExtensions.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC70A2807EBC4006AFD29 /* AnyExtensions.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99128081881006AFD29 /* EnumType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC70B2807EBC4006AFD29 /* EnumType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99228081881006AFD29 /* TransformType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC70C2807EBC4006AFD29 /* TransformType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99328081881006AFD29 /* DateTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC70D2807EBC4006AFD29 /* DateTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99428081881006AFD29 /* PropertyInfo.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC70E2807EBC4006AFD29 /* PropertyInfo.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99528081881006AFD29 /* DateFormatterTransform.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC70F2807EBC4006AFD29 /* DateFormatterTransform.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99628081881006AFD29 /* Serializer.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7102807EBC4006AFD29 /* Serializer.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99728081881006AFD29 /* ExtendCustomBasicType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7112807EBC4006AFD29 /* ExtendCustomBasicType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99828081881006AFD29 /* TransformOf.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7122807EBC4006AFD29 /* TransformOf.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99928081881006AFD29 /* Configuration.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC7132807EBC4006AFD29 /* Configuration.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99A28081888006AFD29 /* AES.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC69D2807EBC3006AFD29 /* AES.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99B28081888006AFD29 /* StreamDecryptor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC69E2807EBC3006AFD29 /* StreamDecryptor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99C28081888006AFD29 /* BlockEncryptor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC69F2807EBC3006AFD29 /* BlockEncryptor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99D28081888006AFD29 /* UInt64+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A02807EBC3006AFD29 /* UInt64+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99E28081888006AFD29 /* Cryptors.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A12807EBC3006AFD29 /* Cryptors.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC99F28081888006AFD29 /* HKDF.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A22807EBC3006AFD29 /* HKDF.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A028081888006AFD29 /* ISO10126Padding.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A32807EBC3006AFD29 /* ISO10126Padding.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A128081888006AFD29 /* Cipher.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A42807EBC3006AFD29 /* Cipher.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A22808188E006AFD29 /* AEADChaCha20Poly1305.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A62807EBC3006AFD29 /* AEADChaCha20Poly1305.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A32808188E006AFD29 /* AEAD.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A72807EBC3006AFD29 /* AEAD.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A42808188E006AFD29 /* CBCMAC.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A82807EBC3006AFD29 /* CBCMAC.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A52808188E006AFD29 /* Int+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6A92807EBC3006AFD29 /* Int+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A62808188E006AFD29 /* AES.Cryptors.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6AA2807EBC3006AFD29 /* AES.Cryptors.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A72808188E006AFD29 /* Bit.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6AB2807EBC3006AFD29 /* Bit.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A82808188E006AFD29 /* HMAC.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6AC2807EBC3006AFD29 /* HMAC.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9A92808188E006AFD29 /* CMAC.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6AD2807EBC3006AFD29 /* CMAC.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9AA2808188E006AFD29 /* UInt16+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6AE2807EBC3006AFD29 /* UInt16+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9AB2808188E006AFD29 /* Collection+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6AF2807EBC3006AFD29 /* Collection+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9AC2808188E006AFD29 /* UInt32+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B02807EBC3006AFD29 /* UInt32+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9AD2808188E006AFD29 /* Digest.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B12807EBC3006AFD29 /* Digest.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9AE2808188E006AFD29 /* UInt128.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B22807EBC3006AFD29 /* UInt128.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9AF2808188E006AFD29 /* Scrypt.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B32807EBC3006AFD29 /* Scrypt.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B02808188E006AFD29 /* NoPadding.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B42807EBC3006AFD29 /* NoPadding.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B128081896006AFD29 /* String+FoundationExtension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B62807EBC3006AFD29 /* String+FoundationExtension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B228081896006AFD29 /* Blowfish+Foundation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B72807EBC3006AFD29 /* Blowfish+Foundation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B328081896006AFD29 /* Utils+Foundation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B82807EBC3006AFD29 /* Utils+Foundation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B428081896006AFD29 /* HMAC+Foundation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6B92807EBC3006AFD29 /* HMAC+Foundation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B528081896006AFD29 /* Data+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6BA2807EBC3006AFD29 /* Data+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B628081896006AFD29 /* ChaCha20+Foundation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6BB2807EBC3006AFD29 /* ChaCha20+Foundation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B728081896006AFD29 /* Array+Foundation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6BC2807EBC3006AFD29 /* Array+Foundation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B828081896006AFD29 /* AES+Foundation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6BD2807EBC3006AFD29 /* AES+Foundation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9B928081896006AFD29 /* Rabbit+Foundation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6BE2807EBC3006AFD29 /* Rabbit+Foundation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9BA28081896006AFD29 /* UInt8+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6BF2807EBC3006AFD29 /* UInt8+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9BB28081896006AFD29 /* MD5.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C02807EBC3006AFD29 /* MD5.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9BC28081896006AFD29 /* Cryptor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C12807EBC3006AFD29 /* Cryptor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9BD28081896006AFD29 /* CompactMap.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C22807EBC3006AFD29 /* CompactMap.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9BE28081896006AFD29 /* BatchedCollection.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C32807EBC3006AFD29 /* BatchedCollection.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9BF28081896006AFD29 /* ISO78164Padding.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C42807EBC3006AFD29 /* ISO78164Padding.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C028081896006AFD29 /* SecureBytes.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C52807EBC3006AFD29 /* SecureBytes.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C128081896006AFD29 /* ZeroPadding.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C62807EBC3006AFD29 /* ZeroPadding.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C228081896006AFD29 /* String+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C72807EBC3006AFD29 /* String+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C328081896006AFD29 /* Authenticator.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C82807EBC3006AFD29 /* Authenticator.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C428081896006AFD29 /* SHA3.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6C92807EBC3006AFD29 /* SHA3.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C528081896006AFD29 /* Operators.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6CA2807EBC3006AFD29 /* Operators.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C628081896006AFD29 /* Rabbit.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6CB2807EBC3006AFD29 /* Rabbit.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C728081896006AFD29 /* SHA1.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6CC2807EBC3006AFD29 /* SHA1.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C828081896006AFD29 /* Poly1305.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6CD2807EBC3006AFD29 /* Poly1305.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9C928081896006AFD29 /* BlockCipher.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6CE2807EBC3006AFD29 /* BlockCipher.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9CA28081896006AFD29 /* Updatable.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6CF2807EBC3006AFD29 /* Updatable.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9CB28081896006AFD29 /* Blowfish.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D02807EBC3006AFD29 /* Blowfish.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9CC28081896006AFD29 /* BlockDecryptor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D12807EBC3006AFD29 /* BlockDecryptor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9CD28081896006AFD29 /* StreamEncryptor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D22807EBC3006AFD29 /* StreamEncryptor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9CE28081896006AFD29 /* DigestType.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D32807EBC3006AFD29 /* DigestType.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9CF28081896006AFD29 /* Utils.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D42807EBC3006AFD29 /* Utils.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D028081896006AFD29 /* Generics.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D52807EBC3006AFD29 /* Generics.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D128081896006AFD29 /* Checksum.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D62807EBC3006AFD29 /* Checksum.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D228081896006AFD29 /* SHA2.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D72807EBC3006AFD29 /* SHA2.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D328081896006AFD29 /* Padding.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6D82807EBC3006AFD29 /* Padding.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D4280818A1006AFD29 /* PKCS7Padding.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6DA2807EBC3006AFD29 /* PKCS7Padding.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D5280818A1006AFD29 /* PKCS5.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6DB2807EBC3006AFD29 /* PKCS5.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D6280818A1006AFD29 /* PKCS7.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6DC2807EBC3006AFD29 /* PKCS7.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D7280818A1006AFD29 /* PBKDF2.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6DD2807EBC3006AFD29 /* PBKDF2.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D8280818A1006AFD29 /* PBKDF1.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6DE2807EBC3006AFD29 /* PBKDF1.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9D9280818A7006AFD29 /* BlockModeOptions.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E02807EBC3006AFD29 /* BlockModeOptions.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9DA280818A7006AFD29 /* OCB.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E12807EBC3006AFD29 /* OCB.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9DB280818A7006AFD29 /* CFB.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E22807EBC3006AFD29 /* CFB.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9DC280818A7006AFD29 /* CBC.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E32807EBC3006AFD29 /* CBC.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9DD280818A7006AFD29 /* ECB.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E42807EBC3006AFD29 /* ECB.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9DE280818A7006AFD29 /* CCM.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E52807EBC3006AFD29 /* CCM.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9DF280818A7006AFD29 /* PCBC.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E62807EBC3006AFD29 /* PCBC.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E0280818A7006AFD29 /* BlockMode.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E72807EBC3006AFD29 /* BlockMode.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E1280818A7006AFD29 /* GCM.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E82807EBC3006AFD29 /* GCM.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E2280818A7006AFD29 /* CipherModeWorker.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6E92807EBC3006AFD29 /* CipherModeWorker.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E3280818A7006AFD29 /* CTR.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6EA2807EBC3006AFD29 /* CTR.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E4280818A7006AFD29 /* OFB.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6EB2807EBC3006AFD29 /* OFB.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E5280818A7006AFD29 /* ChaCha20.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6EC2807EBC3006AFD29 /* ChaCha20.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E6280818A7006AFD29 /* Array+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6ED2807EBC3006AFD29 /* Array+Extension.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E7280818B2006AFD29 /* MultipartFormData.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6772807EBC3006AFD29 /* MultipartFormData.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E8280818B2006AFD29 /* RequestInterceptor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6782807EBC3006AFD29 /* RequestInterceptor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9E9280818B2006AFD29 /* NetworkReachabilityManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6792807EBC3006AFD29 /* NetworkReachabilityManager.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9EA280818B2006AFD29 /* ParameterEncoder.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC67A2807EBC3006AFD29 /* ParameterEncoder.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9EB280818B2006AFD29 /* URLSessionConfiguration+Alamofire.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC67B2807EBC3006AFD29 /* URLSessionConfiguration+Alamofire.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9EC280818B2006AFD29 /* Session.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC67C2807EBC3006AFD29 /* Session.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9ED280818B2006AFD29 /* OperationQueue+Alamofire.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC67D2807EBC3006AFD29 /* OperationQueue+Alamofire.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9EE280818B2006AFD29 /* CachedResponseHandler.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC67E2807EBC3006AFD29 /* CachedResponseHandler.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9EF280818B2006AFD29 /* StringEncoding+Alamofire.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC67F2807EBC3006AFD29 /* StringEncoding+Alamofire.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F0280818B2006AFD29 /* DispatchQueue+Alamofire.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6802807EBC3006AFD29 /* DispatchQueue+Alamofire.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F1280818B2006AFD29 /* RetryPolicy.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6812807EBC3006AFD29 /* RetryPolicy.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F2280818B2006AFD29 /* Protected.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6822807EBC3006AFD29 /* Protected.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F3280818B2006AFD29 /* ParameterEncoding.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6832807EBC3006AFD29 /* ParameterEncoding.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F4280818B2006AFD29 /* ServerTrustEvaluation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6842807EBC3006AFD29 /* ServerTrustEvaluation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F5280818B2006AFD29 /* AFError.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6852807EBC3006AFD29 /* AFError.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F6280818B2006AFD29 /* RedirectHandler.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6862807EBC3006AFD29 /* RedirectHandler.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F7280818B2006AFD29 /* URLEncodedFormEncoder.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6872807EBC3006AFD29 /* URLEncodedFormEncoder.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F8280818B2006AFD29 /* AlamofireExtended.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6882807EBC3006AFD29 /* AlamofireExtended.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9F9280818B2006AFD29 /* HTTPMethod.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6892807EBC3006AFD29 /* HTTPMethod.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9FA280818B2006AFD29 /* MultipartUpload.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC68A2807EBC3006AFD29 /* MultipartUpload.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9FB280818B2006AFD29 /* URLRequest+Alamofire.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC68B2807EBC3006AFD29 /* URLRequest+Alamofire.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9FC280818B2006AFD29 /* URLConvertible+URLRequestConvertible.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC68C2807EBC3006AFD29 /* URLConvertible+URLRequestConvertible.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9FD280818B2006AFD29 /* RequestTaskMap.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC68D2807EBC3006AFD29 /* RequestTaskMap.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9FE280818B2006AFD29 /* Validation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC68E2807EBC3006AFD29 /* Validation.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BAC9FF280818B2006AFD29 /* Notifications.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC68F2807EBC3006AFD29 /* Notifications.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA00280818B2006AFD29 /* AuthenticationInterceptor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6902807EBC3006AFD29 /* AuthenticationInterceptor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA01280818B2006AFD29 /* Response.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6912807EBC3006AFD29 /* Response.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA02280818B2006AFD29 /* Alamofire.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6922807EBC3006AFD29 /* Alamofire.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA03280818B2006AFD29 /* Result+Alamofire.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6932807EBC3006AFD29 /* Result+Alamofire.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA04280818B2006AFD29 /* Request.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6942807EBC3006AFD29 /* Request.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA05280818B2006AFD29 /* HTTPHeaders.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6952807EBC3006AFD29 /* HTTPHeaders.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA06280818B2006AFD29 /* EventMonitor.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6962807EBC3006AFD29 /* EventMonitor.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA07280818B2006AFD29 /* Combine.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6972807EBC3006AFD29 /* Combine.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA08280818B2006AFD29 /* ResponseSerialization.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6982807EBC3006AFD29 /* ResponseSerialization.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA09280818B2006AFD29 /* SessionDelegate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC6992807EBC3006AFD29 /* SessionDelegate.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA0A280818B7006AFD29 /* RougeConfigData.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BAC976280816B3006AFD29 /* RougeConfigData.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		44BACA0C280818DE006AFD29 /* RougeRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BACA0B280818DE006AFD29 /* RougeRequestData.swift */; };
+		44BACA0D28081905006AFD29 /* RougeRequestData.swift in Headers */ = {isa = PBXBuildFile; fileRef = 44BACA0B280818DE006AFD29 /* RougeRequestData.swift */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -320,6 +470,8 @@
 		44BAC7AF2807EC89006AFD29 /* RougeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RougeError.swift; sourceTree = "<group>"; };
 		44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RougeExtension.swift; sourceTree = "<group>"; };
 		44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RougeRequest.swift; sourceTree = "<group>"; };
+		44BAC976280816B3006AFD29 /* RougeConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RougeConfigData.swift; sourceTree = "<group>"; };
+		44BACA0B280818DE006AFD29 /* RougeRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RougeRequestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +509,8 @@
 				44BAC69C2807EBC3006AFD29 /* CryptoSwift */,
 				44BAC6762807EBC3006AFD29 /* Alamofire */,
 				44BAC7AD2807EC49006AFD29 /* RougeConfiguration.swift */,
+				44BAC976280816B3006AFD29 /* RougeConfigData.swift */,
+				44BACA0B280818DE006AFD29 /* RougeRequestData.swift */,
 				44BAC7AF2807EC89006AFD29 /* RougeError.swift */,
 				44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */,
 				44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */,
@@ -577,6 +731,154 @@
 				44BAC7B52807EEDA006AFD29 /* RougeError.swift in Headers */,
 				44BAC7B92807EF15006AFD29 /* RougeRequest.swift in Headers */,
 				44BAC7B62807EEDA006AFD29 /* RougeExtension.swift in Headers */,
+				44BACA0A280818B7006AFD29 /* RougeConfigData.swift in Headers */,
+				44BAC9E7280818B2006AFD29 /* MultipartFormData.swift in Headers */,
+				44BAC9E8280818B2006AFD29 /* RequestInterceptor.swift in Headers */,
+				44BAC9E9280818B2006AFD29 /* NetworkReachabilityManager.swift in Headers */,
+				44BAC9EA280818B2006AFD29 /* ParameterEncoder.swift in Headers */,
+				44BAC9EB280818B2006AFD29 /* URLSessionConfiguration+Alamofire.swift in Headers */,
+				44BAC9EC280818B2006AFD29 /* Session.swift in Headers */,
+				44BAC9ED280818B2006AFD29 /* OperationQueue+Alamofire.swift in Headers */,
+				44BAC9EE280818B2006AFD29 /* CachedResponseHandler.swift in Headers */,
+				44BAC9EF280818B2006AFD29 /* StringEncoding+Alamofire.swift in Headers */,
+				44BAC9F0280818B2006AFD29 /* DispatchQueue+Alamofire.swift in Headers */,
+				44BAC9F1280818B2006AFD29 /* RetryPolicy.swift in Headers */,
+				44BAC9F2280818B2006AFD29 /* Protected.swift in Headers */,
+				44BAC9F3280818B2006AFD29 /* ParameterEncoding.swift in Headers */,
+				44BAC9F4280818B2006AFD29 /* ServerTrustEvaluation.swift in Headers */,
+				44BAC9F5280818B2006AFD29 /* AFError.swift in Headers */,
+				44BAC9F6280818B2006AFD29 /* RedirectHandler.swift in Headers */,
+				44BAC9F7280818B2006AFD29 /* URLEncodedFormEncoder.swift in Headers */,
+				44BAC9F8280818B2006AFD29 /* AlamofireExtended.swift in Headers */,
+				44BAC9F9280818B2006AFD29 /* HTTPMethod.swift in Headers */,
+				44BAC9FA280818B2006AFD29 /* MultipartUpload.swift in Headers */,
+				44BAC9FB280818B2006AFD29 /* URLRequest+Alamofire.swift in Headers */,
+				44BAC9FC280818B2006AFD29 /* URLConvertible+URLRequestConvertible.swift in Headers */,
+				44BAC9FD280818B2006AFD29 /* RequestTaskMap.swift in Headers */,
+				44BAC9FE280818B2006AFD29 /* Validation.swift in Headers */,
+				44BAC9FF280818B2006AFD29 /* Notifications.swift in Headers */,
+				44BACA00280818B2006AFD29 /* AuthenticationInterceptor.swift in Headers */,
+				44BACA01280818B2006AFD29 /* Response.swift in Headers */,
+				44BACA02280818B2006AFD29 /* Alamofire.swift in Headers */,
+				44BACA03280818B2006AFD29 /* Result+Alamofire.swift in Headers */,
+				44BACA04280818B2006AFD29 /* Request.swift in Headers */,
+				44BACA05280818B2006AFD29 /* HTTPHeaders.swift in Headers */,
+				44BACA06280818B2006AFD29 /* EventMonitor.swift in Headers */,
+				44BACA07280818B2006AFD29 /* Combine.swift in Headers */,
+				44BACA08280818B2006AFD29 /* ResponseSerialization.swift in Headers */,
+				44BACA09280818B2006AFD29 /* SessionDelegate.swift in Headers */,
+				44BAC9D9280818A7006AFD29 /* BlockModeOptions.swift in Headers */,
+				44BAC9DA280818A7006AFD29 /* OCB.swift in Headers */,
+				44BAC9DB280818A7006AFD29 /* CFB.swift in Headers */,
+				44BAC9DC280818A7006AFD29 /* CBC.swift in Headers */,
+				44BAC9DD280818A7006AFD29 /* ECB.swift in Headers */,
+				44BAC9DE280818A7006AFD29 /* CCM.swift in Headers */,
+				44BAC9DF280818A7006AFD29 /* PCBC.swift in Headers */,
+				44BAC9E0280818A7006AFD29 /* BlockMode.swift in Headers */,
+				44BAC9E1280818A7006AFD29 /* GCM.swift in Headers */,
+				44BAC9E2280818A7006AFD29 /* CipherModeWorker.swift in Headers */,
+				44BAC9E3280818A7006AFD29 /* CTR.swift in Headers */,
+				44BAC9E4280818A7006AFD29 /* OFB.swift in Headers */,
+				44BAC9E5280818A7006AFD29 /* ChaCha20.swift in Headers */,
+				44BAC9E6280818A7006AFD29 /* Array+Extension.swift in Headers */,
+				44BAC9D4280818A1006AFD29 /* PKCS7Padding.swift in Headers */,
+				44BAC9D5280818A1006AFD29 /* PKCS5.swift in Headers */,
+				44BAC9D6280818A1006AFD29 /* PKCS7.swift in Headers */,
+				44BAC9D7280818A1006AFD29 /* PBKDF2.swift in Headers */,
+				44BAC9D8280818A1006AFD29 /* PBKDF1.swift in Headers */,
+				44BAC9B128081896006AFD29 /* String+FoundationExtension.swift in Headers */,
+				44BAC9B228081896006AFD29 /* Blowfish+Foundation.swift in Headers */,
+				44BAC9B328081896006AFD29 /* Utils+Foundation.swift in Headers */,
+				44BAC9B428081896006AFD29 /* HMAC+Foundation.swift in Headers */,
+				44BAC9B528081896006AFD29 /* Data+Extension.swift in Headers */,
+				44BAC9B628081896006AFD29 /* ChaCha20+Foundation.swift in Headers */,
+				44BAC9B728081896006AFD29 /* Array+Foundation.swift in Headers */,
+				44BAC9B828081896006AFD29 /* AES+Foundation.swift in Headers */,
+				44BAC9B928081896006AFD29 /* Rabbit+Foundation.swift in Headers */,
+				44BAC9BA28081896006AFD29 /* UInt8+Extension.swift in Headers */,
+				44BAC9BB28081896006AFD29 /* MD5.swift in Headers */,
+				44BAC9BC28081896006AFD29 /* Cryptor.swift in Headers */,
+				44BAC9BD28081896006AFD29 /* CompactMap.swift in Headers */,
+				44BAC9BE28081896006AFD29 /* BatchedCollection.swift in Headers */,
+				44BAC9BF28081896006AFD29 /* ISO78164Padding.swift in Headers */,
+				44BAC9C028081896006AFD29 /* SecureBytes.swift in Headers */,
+				44BAC9C128081896006AFD29 /* ZeroPadding.swift in Headers */,
+				44BAC9C228081896006AFD29 /* String+Extension.swift in Headers */,
+				44BAC9C328081896006AFD29 /* Authenticator.swift in Headers */,
+				44BAC9C428081896006AFD29 /* SHA3.swift in Headers */,
+				44BAC9C528081896006AFD29 /* Operators.swift in Headers */,
+				44BAC9C628081896006AFD29 /* Rabbit.swift in Headers */,
+				44BAC9C728081896006AFD29 /* SHA1.swift in Headers */,
+				44BAC9C828081896006AFD29 /* Poly1305.swift in Headers */,
+				44BAC9C928081896006AFD29 /* BlockCipher.swift in Headers */,
+				44BAC9CA28081896006AFD29 /* Updatable.swift in Headers */,
+				44BAC9CB28081896006AFD29 /* Blowfish.swift in Headers */,
+				44BAC9CC28081896006AFD29 /* BlockDecryptor.swift in Headers */,
+				44BAC9CD28081896006AFD29 /* StreamEncryptor.swift in Headers */,
+				44BAC9CE28081896006AFD29 /* DigestType.swift in Headers */,
+				44BAC9CF28081896006AFD29 /* Utils.swift in Headers */,
+				44BAC9D028081896006AFD29 /* Generics.swift in Headers */,
+				44BAC9D128081896006AFD29 /* Checksum.swift in Headers */,
+				44BAC9D228081896006AFD29 /* SHA2.swift in Headers */,
+				44BAC9D328081896006AFD29 /* Padding.swift in Headers */,
+				44BAC9A22808188E006AFD29 /* AEADChaCha20Poly1305.swift in Headers */,
+				44BAC9A32808188E006AFD29 /* AEAD.swift in Headers */,
+				44BAC9A42808188E006AFD29 /* CBCMAC.swift in Headers */,
+				44BAC9A52808188E006AFD29 /* Int+Extension.swift in Headers */,
+				44BAC9A62808188E006AFD29 /* AES.Cryptors.swift in Headers */,
+				44BAC9A72808188E006AFD29 /* Bit.swift in Headers */,
+				44BAC9A82808188E006AFD29 /* HMAC.swift in Headers */,
+				44BAC9A92808188E006AFD29 /* CMAC.swift in Headers */,
+				44BAC9AA2808188E006AFD29 /* UInt16+Extension.swift in Headers */,
+				44BAC9AB2808188E006AFD29 /* Collection+Extension.swift in Headers */,
+				44BAC9AC2808188E006AFD29 /* UInt32+Extension.swift in Headers */,
+				44BAC9AD2808188E006AFD29 /* Digest.swift in Headers */,
+				44BAC9AE2808188E006AFD29 /* UInt128.swift in Headers */,
+				44BAC9AF2808188E006AFD29 /* Scrypt.swift in Headers */,
+				44BAC9B02808188E006AFD29 /* NoPadding.swift in Headers */,
+				44BAC99A28081888006AFD29 /* AES.swift in Headers */,
+				44BAC99B28081888006AFD29 /* StreamDecryptor.swift in Headers */,
+				44BAC99C28081888006AFD29 /* BlockEncryptor.swift in Headers */,
+				44BAC99D28081888006AFD29 /* UInt64+Extension.swift in Headers */,
+				44BAC99E28081888006AFD29 /* Cryptors.swift in Headers */,
+				44BAC99F28081888006AFD29 /* HKDF.swift in Headers */,
+				44BAC9A028081888006AFD29 /* ISO10126Padding.swift in Headers */,
+				44BAC9A128081888006AFD29 /* Cipher.swift in Headers */,
+				44BAC97828081881006AFD29 /* ReflectionHelper.swift in Headers */,
+				44BAC97928081881006AFD29 /* Metadata.swift in Headers */,
+				44BAC97A28081881006AFD29 /* CustomDateFormatTransform.swift in Headers */,
+				44BAC97B28081881006AFD29 /* Properties.swift in Headers */,
+				44BAC97C28081881006AFD29 /* HexColorTransform.swift in Headers */,
+				44BAC97D28081881006AFD29 /* Transformable.swift in Headers */,
+				44BAC97E28081881006AFD29 /* PointerType.swift in Headers */,
+				44BAC97F28081881006AFD29 /* Logger.swift in Headers */,
+				44BAC98028081881006AFD29 /* MangledName.swift in Headers */,
+				44BAC98128081881006AFD29 /* ExtendCustomModelType.swift in Headers */,
+				44BAC98228081881006AFD29 /* Measuable.swift in Headers */,
+				44BAC98328081881006AFD29 /* ISO8601DateTransform.swift in Headers */,
+				44BAC98428081881006AFD29 /* URLTransform.swift in Headers */,
+				44BAC98528081881006AFD29 /* NSDecimalNumberTransform.swift in Headers */,
+				44BAC98628081881006AFD29 /* ContextDescriptorType.swift in Headers */,
+				44BAC98728081881006AFD29 /* EnumTransform.swift in Headers */,
+				44BAC98828081881006AFD29 /* CBridge.swift in Headers */,
+				44BAC98928081881006AFD29 /* FieldDescriptor.swift in Headers */,
+				44BAC98A28081881006AFD29 /* BuiltInBasicType.swift in Headers */,
+				44BAC98B28081881006AFD29 /* OtherExtension.swift in Headers */,
+				44BAC98C28081881006AFD29 /* Deserializer.swift in Headers */,
+				44BAC98D28081881006AFD29 /* DataTransform.swift in Headers */,
+				44BAC98E28081881006AFD29 /* BuiltInBridgeType.swift in Headers */,
+				44BAC98F28081881006AFD29 /* HelpingMapper.swift in Headers */,
+				44BAC99028081881006AFD29 /* AnyExtensions.swift in Headers */,
+				44BAC99128081881006AFD29 /* EnumType.swift in Headers */,
+				44BAC99228081881006AFD29 /* TransformType.swift in Headers */,
+				44BAC99328081881006AFD29 /* DateTransform.swift in Headers */,
+				44BAC99428081881006AFD29 /* PropertyInfo.swift in Headers */,
+				44BAC99528081881006AFD29 /* DateFormatterTransform.swift in Headers */,
+				44BAC99628081881006AFD29 /* Serializer.swift in Headers */,
+				44BAC99728081881006AFD29 /* ExtendCustomBasicType.swift in Headers */,
+				44BACA0D28081905006AFD29 /* RougeRequestData.swift in Headers */,
+				44BAC99828081881006AFD29 /* TransformOf.swift in Headers */,
+				44BAC99928081881006AFD29 /* Configuration.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,7 +928,7 @@
 				Base,
 			);
 			mainGroup = 44BAC6602807EB9E006AFD29;
-			productRefGroup = 44BAC6602807EB9E006AFD29 /* Products */;
+			productRefGroup = 44BAC6602807EB9E006AFD29;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -770,8 +1072,10 @@
 				44BAC72C2807EBC4006AFD29 /* RequestTaskMap.swift in Sources */,
 				44BAC79A2807EBC4006AFD29 /* EnumTransform.swift in Sources */,
 				44BAC73E2807EBC4006AFD29 /* UInt64+Extension.swift in Sources */,
+				44BACA0C280818DE006AFD29 /* RougeRequestData.swift in Sources */,
 				44BAC7972807EBC4006AFD29 /* URLTransform.swift in Sources */,
 				44BAC7532807EBC4006AFD29 /* Blowfish+Foundation.swift in Sources */,
+				44BAC977280816B3006AFD29 /* RougeConfigData.swift in Sources */,
 				44BAC7952807EBC4006AFD29 /* ISO8601DateTransform.swift in Sources */,
 				44BAC74C2807EBC4006AFD29 /* Collection+Extension.swift in Sources */,
 				44BAC7A32807EBC4006AFD29 /* AnyExtensions.swift in Sources */,
@@ -949,7 +1253,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.2;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RougeFlavor.vincent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -982,7 +1286,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.2;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RougeFlavor.vincent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

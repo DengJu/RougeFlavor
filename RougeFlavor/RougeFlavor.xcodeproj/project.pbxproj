@@ -359,7 +359,11 @@
 			isa = PBXGroup;
 			children = (
 				44BAC66D2807EB9E006AFD29 /* RougeFlavor.h */,
-				44BACA0E28082CAE006AFD29 /* publicFile */,
+				44BAC6FD2807EBC3006AFD29 /* Export.swift */,
+				44BAC7AD2807EC49006AFD29 /* RougeConfiguration.swift */,
+				44BAC7AF2807EC89006AFD29 /* RougeError.swift */,
+				44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */,
+				44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */,
 				44BAC976280816B3006AFD29 /* RougeConfigData.swift */,
 				44BACA0B280818DE006AFD29 /* RougeRequestData.swift */,
 				44BAC6F02807EBC3006AFD29 /* HandyJSON */,
@@ -566,18 +570,6 @@
 				44BAC7132807EBC4006AFD29 /* Configuration.swift */,
 			);
 			path = HandyJSON;
-			sourceTree = "<group>";
-		};
-		44BACA0E28082CAE006AFD29 /* publicFile */ = {
-			isa = PBXGroup;
-			children = (
-				44BAC6FD2807EBC3006AFD29 /* Export.swift */,
-				44BAC7AD2807EC49006AFD29 /* RougeConfiguration.swift */,
-				44BAC7AF2807EC89006AFD29 /* RougeError.swift */,
-				44BAC7B12807EE7A006AFD29 /* RougeExtension.swift */,
-				44BAC7B72807EEF5006AFD29 /* RougeRequest.swift */,
-			);
-			path = publicFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
